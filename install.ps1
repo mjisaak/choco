@@ -6,7 +6,10 @@ choco upgrade chocolatey
 choco install picpick.portable -Y --force
 choco install powershell-core -y
 choco install terraform -y
+choco install git -y
 choco install microsoftazurestorageexplorer -y
+choco install act-cli -y
+choco install kustomize -y
 
 # retrieves information about packages that are outdated
 choco outdated
