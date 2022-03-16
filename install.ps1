@@ -10,6 +10,7 @@ choco install git -y
 choco install microsoftazurestorageexplorer -y
 choco install act-cli -y
 choco install kustomize -y
+choco install gh -y
 
 # retrieves information about packages that are outdated
 choco outdated
