@@ -11,6 +11,7 @@ choco install microsoftazurestorageexplorer -y
 choco install act-cli -y
 choco install kustomize -y
 choco install gh -y
+choco install azure-cli
 
 # retrieves information about packages that are outdated
 choco outdated
