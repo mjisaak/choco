@@ -20,6 +20,7 @@ choco install gh -y
 choco install docker-desktop -y
 choco install nodejs -y
 choco install python -y
+choco install vscode -y
 
 <# HELP
 
