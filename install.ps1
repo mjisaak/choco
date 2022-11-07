@@ -6,6 +6,8 @@ choco install cdburnerxp -y
 choco install fsviewer -y
 choco install microsoft-teams -y
 choco install zoom -y
+choco install 7zip.install -y
+choco install notepadplusplus -y
 
 # azure
 choco install microsoftazurestorageexplorer -y
@@ -23,6 +25,8 @@ choco install python -y
 choco install vscode -y
 
 <# HELP
+
+
 
 # Install chocolatey
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
